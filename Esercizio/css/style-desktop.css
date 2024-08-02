@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto:wght@400;700&display=swap");
+html,
+body {
+  margin: auto;
+  display: block;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.bground {
+  background-image: url(../img/sfondo.png);
+  background-size: 160%;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+main {
+  box-sizing: border-box;
+  padding-inline: 20px;
+  margin-inline: auto;
+}
+nav {
+  display: block;
+
+  background: linear-gradient(
+    0deg,
+    rgba(2, 70, 106, 1) 8%,
+    rgba(0, 155, 191, 1) 100%
+  );
+
+  margin-block: 10px;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-inline: auto;
+  width: 350px;
+  height: 235px;
+  color: white;
+  box-shadow: 0px 13px 12px 11px rgba(0, 0, 0, 0.1);
+}
+nav img {
+  width: 70%;
+  padding-block: 30px;
+}
+nav h1 {
+  margin-bottom: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.wrap {
+  margin-block: 20px;
+  background-color: white;
+  padding-block: 30px;
+  padding-inline: 20px;
+  font-size: 22px;
+  line-height: 1.5;
+  box-shadow: 0px 13px 14px 11px rgba(0, 0, 0, 0.1);
+}
+.wrap h2 span {
+  font-size: 36px;
+  font-weight: 500;
+}
+figcaption {
+  margin-block: 25px;
+  margin-inline: 10px;
+  color: rgb(173, 172, 172);
+}
+footer {
+  display: block;
+  text-align: center;
+  width: 450px;
+  height: 100px;
+  margin-block: 30px;
+  padding-block: 20px;
+  color: white;
+
+  background: linear-gradient(
+    0deg,
+    rgba(2, 70, 106, 1) 8%,
+    rgba(0, 155, 191, 1) 100%
+  );
+}
+.purple {
+  color: purple;
+  font-weight: 600;
+}
+#sudd {
+  margin-block: 20px;
+}
+ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+ul li:last-child {
+  margin-bottom: 30px;
+}
+.hfm {
+  border: 1px solid rgb(97, 97, 97);
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgb(214, 214, 214);
+}
+ol {
+  margin-block: 30px;
+}
+ol li {
+  list-style: decimal;
+  list-style-position: inside;
+  padding-left: 30px;
+}
+table {
+  margin-block: 30px;
+}
+caption {
+  font-weight: 600;
+  font-style: italic;
+}
+tr th {
+  background-color: blue;
+  height: 100px;
+}
+iframe {
+  border-radius: 20px;
+}
+.novita,
+.articles p {
+  margin-block: 30px;
+  padding: 20px;
+  background-color: rgb(235, 235, 235);
+}
+.novita h2,
+h3 {
+  text-align: center;
+  color: rgb(61, 61, 61);
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.iscrizione {
+  margin-top: 20px;
+  margin-inline: 10px;
+  width: 250px;
+  height: 35px;
+  border: hidden;
+  border-bottom: 1px dashed;
+  font-size: 20px;
+}
+.bottone {
+  background-color: rgb(93, 120, 240);
+  border-radius: 0;
+  width: 100px;
+
+  padding: 0;
+  margin-left: -13px;
+  padding-block: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.articles p {
+  border: 2px solid rgb(201, 200, 200);
+}
+.articles a {
+  font-weight: 600;
+}
+.dates {
+  font-size: 18px;
+  padding-left: 195px;
+}
+footer p {
+  padding-top: 20px;
+}
